@@ -1,0 +1,13 @@
+.header {
+    margin-bottom: 6.4rem;
+}
+
+.header--logo {
+    width: 8rem;
+    margin-top: 3.2rem;
+}
+
+.header--logo:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}

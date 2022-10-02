@@ -1,0 +1,42 @@
+.button--input {
+    display: none;
+}
+
+.button--btn {
+    width: inherit;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: inherit;
+    font-weight: 500;
+    color: var(--theme-color);
+    background-color: #C678DD;
+    border-radius: inherit;
+    border: none;
+}
+
+.button--btn:hover {
+    cursor: pointer;
+    background-color: #9E62AF;
+}
+
+.button--btn:focus {
+    background-color: #9E62AF;
+    outline: none;
+}
+
+.button .images:active {
+    background-color: #9E62AF;
+}
+
+.button .error {
+    color: #B5000E;
+    background-color: #E06C75;
+}
+
+.button .inactive {
+    color: #5A5E65;
+    background-color: #ABB2BF;
+    pointer-events: none;
+}

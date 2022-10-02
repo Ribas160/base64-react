@@ -1,0 +1,23 @@
+.encode ul {
+    max-width: 82rem;
+    margin: 0 auto;
+}
+
+.encode li {
+    height: 7.2rem;
+    margin-top: 0.2rem;
+    border-radius: 1rem;
+    list-style-type: none;
+}
+
+.encode li:first-of-type {
+    margin-top: 0;
+}
+
+.encode .button {
+    width: 24rem;
+    height: 6rem;
+    margin: 3.2rem auto 6.4rem;
+    font-size: 2.8rem;
+    border-radius: 10rem;
+}

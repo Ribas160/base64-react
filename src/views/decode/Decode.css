@@ -1,0 +1,70 @@
+.decode textarea {
+    width: 100%;
+    max-width: 82rem;
+    height: 29.4rem;
+    margin: 0 auto;
+    padding: 1.2rem;
+    display: block;
+    color: #373D47;
+    font-family: Arial, sans-serif;
+    font-size: 2.8rem;
+    background-color: #1F2228;
+    border: 0.4rem solid #373D47;
+    border-radius: 1rem;
+    transition: all 0.2s ease;
+    resize: none;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    overflow-x: hidden;
+    overflow: hidden;
+}
+
+.decode textarea::-webkit-scrollbar {
+    width: 0;
+}
+
+.decode textarea::placeholder {
+    color: inherit;
+    font-family: 'Roboto', sans-serif;
+}
+
+.decode textarea:hover, textarea:focus {
+    cursor: pointer;
+    color: #4A7BA4;
+    border-color: #4A7BA4;
+}
+
+.decode .textareaError {
+    color: #96525B;
+    border-color: #96525B;
+}
+
+.decode .button--btn {
+    width: 24rem;
+    height: 6rem;
+    margin: 3.2rem auto 0;
+    font-size: 2.8rem;
+    border-radius: 10rem;
+}
+
+.decode ul {
+    max-width: 82rem;
+    margin: 6.4rem auto;
+}
+
+.decode li {
+    height: 7.2rem;
+    margin-top: 0.2rem;
+    border-radius: 1rem;
+    list-style-type: none;
+}
+
+.decode li:first-of-type {
+    margin-top: 0;
+}
+
+.decode li a {
+    color: inherit;
+    text-decoration: none;
+    border-radius: inherit;
+}
